@@ -1,14 +1,8 @@
 import './Inbox.css'
 import MessageDisplay from '../../componnents/MessageDisplay/MessageDisplay';
-/* import nomail from './../../images/Asset 1 1.svg'
-import small_photo from './../../images/Rectangle 113.png'
-import attach_small from './../../images/attachsquare_small.svg' */
 import attach from './../../images/attachsquare.svg'
 import filter from './../../images/frame.svg'
-/* import download from './../../images/inbox2 arrowcircledown2.svg'
-import option from './../../images/ic_baseline-more-vert.svg' */
 import trash from './../../images/delete small.svg'
-/* import gallery from './../../images/gallery_small.svg' */
 import { useState } from 'react'
 import Topbar from '../../componnents/Topbar/Topbar'
 import MessageDetails from '../../componnents/MessageDetails/MessageDetails';

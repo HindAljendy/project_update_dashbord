@@ -1,12 +1,7 @@
-
 import './Calender.css'
-
 import ReactDatePicker from 'react-datepicker'
 import 'react-datepicker/dist/react-datepicker.module.css'
-
-
 import { useState } from 'react';
-
 
 
 const Calender = () => {
@@ -15,13 +10,13 @@ const Calender = () => {
 
   return (
     <div>
-          <ReactDatePicker
-            
-            className='custom-datepicker'   
-            selected={startDate} 
-            calendarContainer="inline"
-            onChange={(date) => setStartDate(date)}  
-            />
+      <ReactDatePicker
+        
+        className='custom-datepicker'   
+        selected={startDate} 
+        calendarContainer="inline"
+        onChange={(date) => setStartDate(date)}  
+      />
     
           
     </div>

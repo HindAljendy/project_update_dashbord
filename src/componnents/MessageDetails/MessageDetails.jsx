@@ -1,6 +1,5 @@
 import React from 'react'
 import gallery from './../../images/gallery_small.svg'
-
 import small_photo from './../../images/Rectangle 113.png'
 import attach_small from './../../images/attachsquare_small.svg'
 import attach from './../../images/attachsquare.svg'
