@@ -91,10 +91,25 @@
     display: flex;
     align-items: center;
 }
-.RH_form_lastSection .RH-space-between .hidden {
-    border: .1rem solid gray;
-    color: gray; 
+.RH_form_lastSection .RH-space-between .image_size{
+    color: #282828;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 1rem;
+}
+.RH_form_lastSection .RH-space-between .size1 {
+    border: .1rem soli d#004E6B;
+    color: #004E6B; 
+    border-radius: 0.5rem;
+    padding: 0.3rem;
 }
 
-
-
+.RH_form_lastSection .RH-space-between .size3 {
+    border: .1rem solid gray;
+    color: gray; 
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+    padding: 0.3rem;
+}

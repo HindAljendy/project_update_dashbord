@@ -38,6 +38,7 @@ import PopUpFood from './componnents/PopupFood/PopUpFood';
 
 
 
+
 function App() {
   return (
       <div className='App'>
@@ -106,13 +107,14 @@ function App() {
             {/* Routes of the Inbox page */}
           
            <Route path='/inbox' element={< Inbox />}/>
+      
 
          
         
         </Routes>
        
 
-        
+       
         
         
       </div>

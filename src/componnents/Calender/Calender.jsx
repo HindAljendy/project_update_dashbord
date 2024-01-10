@@ -11,15 +11,16 @@ import { useState } from 'react';
 
 const Calender = () => {
 
- const [startDate, setStartDate] = useState(new Date());
+  const [startDate, setStartDate] = useState(new Date()); 
+
   return (
     <div>
           <ReactDatePicker
             
-            className='custom-datepicker '     
+            className='custom-datepicker'   
             selected={startDate} 
             calendarContainer="inline"
-            onChange={(date) => setStartDate(date)} 
+            onChange={(date) => setStartDate(date)}  
             />
     
           
@@ -28,3 +29,6 @@ const Calender = () => {
 }
 
 export default Calender
+
+
+

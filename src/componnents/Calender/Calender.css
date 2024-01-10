@@ -16,7 +16,7 @@
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
+
 }
 .react-datepicker-wrapper {
     position: relative;
@@ -69,22 +69,9 @@
     border-radius: var(--Butten-Radius, 0.44rem);
     background: var(--primary, #004E6B); 
 }
-
-
-.react-datepicker-popper.react-datepicker__triangle::before, .react-datepicker-popper.react-datepicker__triangle::after {
-     border-top: none; 
-   
-}
-  
-
-
 .react-datepicker__header {
-    text-align: center;
-    border-bottom: 1px solid #aeaeae;
-    border-top-left-radius: 0.3rem;
     padding: 0px 0 !important;
     padding-top: 0.5rem !important;
-    position: relative;
 }
 
 .react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
@@ -125,4 +112,13 @@
 }
 
 
+.react-datepicker__aria-live {
+    position: fixed !important;
 
+}
+.fixed-datepicker {
+    position: fixed;
+    top: 50px; /* يمكنك تعديل هذه القيمة وفقًا للموضع الذي ترغب في عرض التقويم فيه */
+    left: 50px; /* يمكنك تعديل هذه القيمة وفقًا للموضع الذي ترغب في عرض التقويم فيه */
+  }
+  

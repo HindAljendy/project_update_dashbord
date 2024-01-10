@@ -36,14 +36,14 @@ background-color:  #F0F0F0;
 
 }
 .HJ_sectionTwo  .HJ_links{
-    margin-top: 5rem;
+    margin-left: 0.5rem;
+    margin-top: 18.5rem; 
 }
 .HJ_link_delete{
     color:#E76A6A;
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
     text-decoration-line: underline;
 }
 .HJ_sectionTwo .HJ_filterBy{
@@ -64,8 +64,3 @@ background-color:  #F0F0F0;
     line-height: 1.4rem;
     
 }
-.margin_link{
-   
-    margin-left: 0.5rem;
-}
-

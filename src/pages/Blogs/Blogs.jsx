@@ -31,7 +31,7 @@ const Blogs = () => {
               <option value="option1">Category</option>
             </select>
             <Calender/>
-            <div className='HJ_links margin_link'>
+            <div className='HJ_links '>
               <Link to='/delete_article' className='HJ_link_delete'>Deleted articles</Link>
             </div>
           </div>

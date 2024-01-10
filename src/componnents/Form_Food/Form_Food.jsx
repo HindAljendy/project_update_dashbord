@@ -1,6 +1,8 @@
 import './Form_Food.css'
 import React, { useState } from 'react';
 import ImageDropZone from '../ImageDropZone/ImageDropZone';
+import x3 from './../../images/x3.svg'
+import x1 from './../../images/x1.svg'
 
 const Form_Food = () => {
   const [titleFood, setTitleFood] = useState('');
@@ -62,9 +64,13 @@ const Form_Food = () => {
 
         <div className='RH_form_lastSection'>
             <div className="RH-space-between">
-              <span>Image size :</span>
-              <div><label  className="m-3"> * 1 </label></div>
-              <div><label  className="m-3 hidden"> * 3 </label></div> 
+              <span className='image_size'>Image size :</span>
+              <label  className=" size1"> 
+                <img src={x1 } alt='size1'/>
+               </label>
+              <label  className=" size3">
+               <img src={x3 } alt='size'/>
+              </label>
             </div>
             <div className='HJ_form_buttons'>
               <button className='btn_cancel'>Cancel</button>
